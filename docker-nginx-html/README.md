@@ -2,7 +2,9 @@
 🔹 Step 1: Start an Ubuntu container with port mapping
 
 docker run -it -p 8080:80 ubuntu bash
+
 This runs a new Ubuntu container interactively and maps host port 8080 to container port 80 (Nginx default).
+
 🔹 Step 2: Update package lists
 
 Inside the container, run:
@@ -11,8 +13,10 @@ apt update
 🔹 Step 3: Install nginx and nano
 
 apt install -y nginx nano
+
 nginx is the web server.
 nano is a simple text editor to create the HTML file.
+
 🔹 Step 4: Create your HTML file
 
 Navigate to the default HTML folder:
