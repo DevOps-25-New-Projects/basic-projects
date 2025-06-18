@@ -17,28 +17,6 @@ Welcome to the **Basic Projects** repository! This collection contains small but
 
 ---
 
-### 2. **terraform-aws-s3**
-> Provision an S3 bucket using Terraform.
-
-- Teaches: Infrastructure as Code (IaC)
-- Tech: AWS, Terraform
-- Includes: `main.tf` with variables and outputs
-
-➡️ [View project folder](./terraform-aws-s3)
-
----
-
-### 3. **kestra-basic-flow**
-> Define a simple event-driven workflow using Kestra.
-
-- Teaches: Workflow orchestration
-- Tech: Kestra, YAML, Docker
-- Trigger: API or schedule-based
-
-➡️ [View project folder](./kestra-basic-flow)
-
----
-
 ## 👨‍💻 Who is this for?
 
 - Beginners learning cloud & DevOps
